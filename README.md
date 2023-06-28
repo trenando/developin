@@ -1,25 +1,28 @@
-# default
+# Тестовое задание vue3 + pinia + vuetify
 
-## Project setup
+## О проекте
+В проекте реализована таблица и разный функционал:
+1. Поиск и сортировка 
+2. Кнопка добавления нового работника с валидацией
+3. Открытие страницы с карточкой работника (при клике по конкретному работнику)
+4. Удаление сотрудника из таблицы с всплывающим окном
+5. Редактирование работника в таблице с валидацией
+6. Сохранение изменений сотрудников в local storage
+
+## Настройка проекта
 
 ```
-# npm
+git clone https://github.com/trenando/developin.git
 npm install
-
-### Compiles and hot-reloads for development
-
 ```
-# npm
+# Запуск разработки
+```
 npm run dev
+```
 
 
-### Compiles and minifies for production
+### Компиляция продакшена
 
 ```
-# npm
 npm run build
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
